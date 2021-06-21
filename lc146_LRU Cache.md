@@ -148,4 +148,4 @@ class LRUCache {
 ```
 
 ### Notes:
-Can also use take advantage of Java LinkedHashMap.
+Can also take advantage of Java LinkedHashMap.
