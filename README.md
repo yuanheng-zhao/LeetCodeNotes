@@ -1,2 +1,2 @@
-# LeetCodePractice
-Some of my practices on LeetCode
+# LeetCodeNotes
+Some of my notes solving problems on LeetCode
