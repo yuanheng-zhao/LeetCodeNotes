@@ -4,9 +4,9 @@
 
 class Solution:
     def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
-        # LIS ver
-        # O(n^2), will exceed time limits for some tests!
-        # if len(intervals) == 0 or len(intervals) == 1:
+        # # LIS ver
+        # # O(n^2), will exceed time limits for some tests!
+        # if len(intervals) <= 1:
         #     return 0
 
         # intervals.sort()
@@ -20,7 +20,7 @@ class Solution:
         # return len(intervals) - max(dp)
 
         # Greedy ver
-        if len(intervals) == 0 or len(intervals) == 1:
+        if len(intervals) <= 1:
             return 0
 
         non_overlapping_count = 1
